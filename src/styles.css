@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import '~font-awesome/css/font-awesome.css';
+
+
+.table1{
+    color: #bfc1c8;
+    font-family: "Roboto","Open Sans", sans-serif;;
+}
+.forecast-head{
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    height: 46px;
+}
+
+.forecast-container{
+    background-color: #323544;
+    display: table;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 100px;
+}

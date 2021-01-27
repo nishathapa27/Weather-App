@@ -1,0 +1,60 @@
+<div class="table1">
+    <div class="forecast-container d-flex">
+        <div class="today">
+            <div class="forecast-head">
+                <div class="day">{{date | date: 'EEEE'}}</div>
+                <div class="date">{{date | date:'dd MMMM'}}</div>
+            </div>
+            <div class="forecast-content">
+                
+                <div class="degree">
+                    
+                    <div class="number">
+                        <div class="location">{{weatherDetails.location.name}}</div>
+                        <div class="today-weather">
+                            <div class="number">{{weatherDetails.current.temperature}}<sup>o</sup>C
+
+                                <div class="forecast-icon">
+                                    <fa-icon [icon]="faSun"></fa-icon>
+                                </div>
+                            </div>
+
+                                <div class="icons" style="width:max-content;">
+                                    <div class="icon-1">
+                                <fa-icon [icon]="faUmbrella"></fa-icon>
+                                <p class="pl-1">{{weatherDetails.current.cloudcover}}%</p>
+                                <!-- <i class="fas fa-wind"></i> -->
+                                    </div> 
+                                    <div class="icon-1">
+                                <fa-icon [icon]="faWind"></fa-icon>
+                                <p class="pl-1">{{weatherDetails.current.wind_speed}}km/h</p> 
+                                    </div>                   
+                                    <div class="icon-1">
+                                <fa-icon [icon]="faCompass"></fa-icon>
+                                <p class="pl-1">{{dir}}
+                                    <!-- <ng-container [ngSwitch]="dir">
+                                        <div *ngSwitchCase="'N'">North</div>
+                                        <div *ngSwitchCase="'W'">West</div>
+                                        <div *ngSwitchCase="'SSW'">South South-West</div>
+                                        <div *ngSwitchCase="'SW'">South West</div>
+                                        <div *ngSwitchCase="'WSW'">West South-West</div>
+                                        <div *ngSwitchCase="'WNW'">West North-West</div>
+                                        <div *ngSwitchDefault>Direction</div>
+                                    </ng-container> -->
+                                    
+                                </p>
+                                    </div>
+                                </div>
+                            
+                            
+                            <!-- <div class="forecast-icon">
+                                <fa-icon [icon]="faSun"></fa-icon>
+                            </div> -->
+                        </div> 
+                    </div> 
+                </div>       
+            </div>
+        </div>
+        <app-weekly></app-weekly>
+    </div>
+</div>

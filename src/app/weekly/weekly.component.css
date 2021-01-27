@@ -1,0 +1,40 @@
+.forecast{
+    background-color: #262936;
+    display: table-cell;
+    border: none;
+}
+
+.forecast-content{
+    text-align: center;
+    font-size: 33px;
+    padding: 47px 0px 80px 0px;
+}
+.forecast-row{
+    font-weight: 200;
+}
+.table{
+    color: #bfc1c8;
+    font-weight: 200;
+    width: 690px;
+    margin-bottom: 0px;
+}
+.table thead th{
+    border: none;
+    padding: 10px;
+}
+.table td{
+    border: none;
+}
+.icons{
+    font-size: 33px;
+    margin-bottom: 20px;
+    
+    color:  #22B3DB;
+}
+.num{
+    font-size: 26px;
+    margin-top: 34px;
+}
+small{
+    font-size: 50%;
+}

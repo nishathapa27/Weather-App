@@ -1,0 +1,58 @@
+
+
+.today{
+    width: 420px;
+}
+
+.forecast-head .day{
+    float: left;
+}
+.forecast-head .date{
+    float: right;
+}
+.forecast-content{
+    text-align: left;
+    padding: 34px 20px 10px;
+
+}
+.location{
+    font-size: 1.23rem;
+    font-weight: 400;
+}
+.degree{
+    font-size: 1.7rem;
+    color:white;
+    font-weight: 700;
+}
+.number{
+    font-size: 6.4rem;
+    /* margin-right: 20px; */
+    display: inline-block;
+    vertical-align: middle;
+}
+.today-weather{
+    /* display: flex; */
+}
+.forecast-icon{
+    color: #22B3DB;
+    display: inline-block;
+    vertical-align: middle;
+    /* font-size: 80px; */
+    margin-left: 26px;
+}
+
+.icons{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle; 
+    justify-content: space-between;   
+    color: #8D8D93;
+}
+
+.icon-1{
+    display: flex;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 200;
+}
